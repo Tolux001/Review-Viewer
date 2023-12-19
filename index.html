@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Various reviews">
+    <meta data-rh="true" property="og:site_name" content="Reviews">
+    <meta data-rh="true" property="og:type" content="article">
+    <meta data-rh="true" property="og:title" content="People review">
+    <meta data-rh="true" property="og:url" content="https://tolux-review-check.netlify.app/">
+    <meta data-rh="true" property="og:image" content="https://thumbs.dreamstime.com/z/man-sitting-desk-looking-computer-screen-fat-smiling-isolated-gray-40355335.jpg?w=992">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/tolux001.png" />
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" crossorigin="anonymous" async />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Review viewer</title>
+  </head>
+  <body>
+    <main>
+      <div class="main">
+        <div class="card">
+          <section class="container">
+            <!-- Tittle -->
+            <div class="title">
+              <h2>Our Reviews</h2>
+              <div class="underline"></div>
+            </div>
+            <!-- Review container -->
+            <article class="review">
+              <div class="img-container">
+                <a id="anchor--tag" href="images/dp.jpg" title="Profile--Picture"><img src="images/dp.jpg" alt="Profile--Picture" id="person-img"/></a>
+                <!-- <img src="./images/dp.jpg" id="person-img" alt="Profile--Picture"> -->
+              </div>
+              <h4 id="author">Tolux001</h4>
+              <p id="job">Developer</p>
+              <p class="id"></p>
+              <p id="info">
+                Frontend Developer | Javascript Enthusiast | Proud Funaabite | Mastering Graphics && Color | Spreading Positive Vibes
+              </p>
+              <!-- Prev && Next button -->
+              <div class="button-container">
+                <button title="prev-btn" class="prev-btn">
+                  <i class="fas fa-chevron-left"></i>
+                </button>
+                <button title="next-btn" class="next-btn">
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+              <!-- Random button -->
+              <button class="random-btn">Random</button>
+            </article>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
